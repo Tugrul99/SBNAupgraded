@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-left: 23px;
+}
+
+a {
+    color: wheat;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+section,
+span,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 100;
+    line-height: 0.4;
+    letter-spacing: 2px;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: antiquewhite;
+
+}
+
+h4 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-weight: 50;
+    letter-spacing: 0.5rem;
+    font-weight: 100;
+}
+
+.f-letter {
+    font-size: 8.8rem;
+    font-family: 'Herr Von Muellerhoff', cursive;
+
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-image: linear-gradient(to left, #492231, rgba(155, 112, 128, 0.0)), url(./img/12717.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    filter: brightness(0.8);
+
+
+}
+
+.header-logo {
+    letter-spacing: 5px;
+    color: antiquewhite;
+    font-size: 35px;
+
+
+
+
+}
+
+.header-logo h2 {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: 100;
+
+
+
+
+}
+
+
+.header-navbar {
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+   
+}
+
+.header-text {
+    position: absolute;
+    top: 40%;
+    transform: translateX(-50%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* ABOUT  */
+
+.about{
+   background:  linear-gradient(to top, #492231, rgba(155, 112, 128, 0.0));
+}
+
+.about {
+   height: 100vh;
+}
+
+.about-title {
+    padding: 60px 0;
+
+}
+
+.about-title h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Poiret One', cursive;
+}
+
+.about-title h2::after {
+    content: "";
+    background-color: black;
+    width: 45px;
+    height: 3px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-img {
+    width: 40%;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+    border-radius: 20px;
+}
+
+.about-text {
+    width: 40%;
+   
+}
+
+.about-text p {
+    font-size: 15px;
+    text-align: justify;
+    color: #240606;
+}
+
+
+.first-p{
+    margin: 5px;
+    letter-spacing: 0.5px;
+  
+    
+    
+}
+.first-p i{
+  color: purple;
+  text-align: center;
+    
+    
+}
+
+.about-text h4::after {
+    content: "";
+    background-color: #925151;
+    width: 120px;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 15px;
+}
+
+/* ABOUT END */ 
+
+/* SERVİCES START  */
+.services{
+    height: 80vh;
+}
+.services-title{
+    padding: 60px 0;
+    text-align: center;
+    
+}
+.services-title h2{
+    font-size: 55px;
+    font-weight: 800;
+    font-family: 'Poiret One', cursive;
+    text-align: left;
+}
+.services-name{
+    text-align: center;
+}
+.services-name ol li{
+    padding-bottom: 10px;
+    text-align: left;
+}
